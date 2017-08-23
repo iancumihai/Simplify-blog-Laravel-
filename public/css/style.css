@@ -1,0 +1,470 @@
+@media only screen and (max-width: 500px) {
+    .container-fluid {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    .footer-elem {
+        display: none;
+    }
+    .footer-text {
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .container-fluid {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    .footer-elem {
+        display: none;
+    }
+    .footer-text {
+        text-align: center;
+    }
+}
+@media (max-width: 992px) {
+    .container-fluid {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    .footer-elem {
+        display: none;
+    }
+    .footer-text {
+        text-align: center;
+    }
+}
+html,
+body {
+    margin:0;
+    padding:0;
+    height:100%;
+    font-family: 'Roboto', sans-serif;
+    background: #e9eaed;
+}
+.container-fluid {
+    padding-left: 195px;
+    padding-right: 195px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+/*folosesc #content doar cand nu ocupa toata pagina elementele
+  in rest folosesc .content{background:white;}  
+*/
+.content{
+    background:white;
+}
+#content{
+    background-color: white;
+    height: 75vh;
+}
+#footer {
+    background:#3b5998;
+    height:65px;
+    bottom:0;
+    left:0;
+}
+/* HEADER */
+
+.navbar {
+    background: #3b5998;
+    margin: 0px;
+}
+#logo {
+    font-size: 30px;
+    color: white;
+}
+#nav-color {
+    color: white;
+}
+.ads {
+    background-color: rgba(0, 0, 0, 0.08);
+    line-height: 90px;
+    height: 90px;
+    color: #999;
+    text-align: center;
+    box-shadow: inset 0 0 0 5px rgba(0, 0, 0, 0.08);
+    cursor: pointer;
+    margin: 10px 25px 5px 25px;
+}
+.down {
+    margin-top: 30px;
+    box-shadow: inset 0 0 0 5px rgba(0, 0, 0, 0.05);
+}
+.post-thumb {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+}
+/* Login and Register form */
+.form{
+    margin-top: 60px;
+}
+/* Posts */
+.post-button{
+    margin-top: 20px;
+}
+.btn-spacing{
+    margin-top: 20px;
+}
+.message{
+    margin: 30px 25px 30px 25px;
+}
+.img{
+  max-width:600px; 
+  max-height:400px;
+  margin:auto;
+  display:block;
+}
+/* Comments */
+.comment {
+    margin-bottom: 45px;
+}
+
+.author-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    float: left;
+}
+
+.author-name {
+    float: left;
+    margin-left: 15px; 
+}
+
+.author-name>h4 {
+    margin: 5px 0px;
+    
+}
+
+.author-time {
+    font-size: 11px;
+    font-style: italic;
+    color: #aaa;
+}
+
+.comment-content {
+    clear: both;
+    margin-left: 65px;
+    font-size: 16px;
+    line-height: 1.3em;
+}
+
+.comments-title {
+    margin-bottom:45px;
+}
+
+.comments-title>span {
+    margin-right: 15px;
+}
+/*SIDEBAR*/
+/*social network*/
+
+#socialcounter {
+    overflow: hidden;
+    margin: 20px 0px 20px 0px;
+}
+#socialcounter ul {
+    margin-left: -45px;
+}
+#socialcounter ul li {
+    list-style: none;
+}
+#socialcounter ul li a.social_item {
+    position: relative;
+    display: block;
+    opacity: .9;
+    height: 50px;
+    line-height: 50px;
+    overflow: hidden;
+}
+#socialcounter ul li.social_item-wrapper {
+    float: left;
+    width: 45%;
+    text-align: center;
+    margin: 0 4% 10px 0;
+    color: #fff;
+}
+#socialcounter ul a {
+    color: #fff;
+}
+#socialcounter ul li a.social_item.social_facebook {
+    background: #3F5B9B;
+}
+#socialcounter ul li a.social_item.social_twitter {
+    background: #1C97DE;
+}
+#socialcounter ul li a.social_item.social_rss {
+    background: #E86321;
+}
+#socialcounter ul li a.social_item.social_google-plus {
+    background: #E82C2C;
+}
+.fa-facebook.social_icon {
+    background: #2E4372;
+}
+.fa-twitter.social_icon {
+    background: #0075b9;
+}
+.fa-google-plus.social_icon {
+    background: #c40000
+}
+.fa-user-plus.social_icon {
+    background: #c44100;
+}
+.social_icon {
+    float: left;
+    line-height: 50px;
+    width: 41px;
+    font-size: 1.3rem;
+}
+.sidebar-content1 {
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+.footer-text {
+    margin-top: 20px;
+    color: white;
+}
+.footer-elem {
+    margin-top: 10px;
+}
+.popular-posts1 ul li {
+    list-style: none;
+    margin-top: 10px;
+    padding: 5px 0;
+    position: relative;
+    margin-left: -35px;
+    clear: left;
+}
+.popular-posts1 ul li a {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 1.6;
+    color: #111;
+    margin: auto;
+    padding: auto;
+    list-style: none;
+    border: none;
+}
+.popular-posts1 li a img {
+    color: #111;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border: none;
+}
+.item-title {
+    padding: 0 5px;
+}
+.item-thumbnail {
+    margin: 0 10px 0 0;
+    overflow: hidden;
+    z-index: 2;
+    display: block;
+    position: relative;
+    border-radius: 0;
+    width: 80px;
+    height: 56px;
+    float: left;
+}
+/*    Footer   */
+
+.footer-menu {
+    margin: auto;
+    padding: 0;
+    background: #2c2532;
+    border-top: 5px solid #642e8b;
+}
+.maxwrap {
+    max-width: 970px;
+    margin: 0 auto;
+}
+#footer-wrapper {
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+}
+#footbawah {
+    clear: both;
+    background: #1e1923;
+    margin: auto;
+    padding: 25px 0;
+    color: #999;
+    font-size: 14px;
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+.footbawahkiri {
+    float: left;
+}
+.footbawahkiri2 {
+    float: right;
+}
+#footer-wrapper {
+    overflow: hidden;
+    margin: 0 auto 20px auto;
+    padding: 20px 0 0;
+}
+ul.menufoot {
+    margin: auto;
+    padding: 0;
+    width: auto;
+    overflow: hidden;
+    float: left;
+    list-style: none;
+    line-height: 24px;
+}
+ul.menufoot li {
+    display: inline-block;
+    margin: 20px 0;
+}
+ul.menufoot li a {
+    text-transform: uppercase;
+    color: #fdbc40;
+    overflow: hidden;
+    margin-right: 25px;
+    font-size: 14px;
+}
+ul.nomedic {
+    margin: 12px auto;
+    padding: 0;
+    height: 40px;
+    float: right;
+    overflow: hidden;
+    display: block;
+}
+ul.nomedic li {
+    float: left;
+    text-align: right;
+}
+li.sosialfoot {
+    display: inline-block;
+    float: right;
+    list-style-type: none;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+}
+li.sosialfoot a.gpl {
+    background: #e14936;
+}
+li.sosialfoot a {
+    background: #969299;
+    clear: both;
+    transition: all 0.4s;
+    display: inline-block;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding: 0;
+    margin: 0 0 0 5px;
+    color: #fff!important;
+    border-radius: 99em;
+    border: none!important;
+}
+li.sosialfoot a.fcb {
+    background: #3a5a9d;
+}
+li.sosialfoot a {
+    background: #969299;
+    clear: both;
+    transition: all 0.4s;
+    display: inline-block;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding: 0;
+    margin: 0 0 0 5px;
+    color: #fff!important;
+    border-radius: 99em;
+    border: none!important;
+}
+li.sosialfoot a.twt {
+    background: #15cbe0;
+}
+li.sosialfoot a {
+    background: #969299;
+    clear: both;
+    transition: all 0.4s;
+    display: inline-block;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding: 0;
+    margin: 0 0 0 5px;
+    color: #fff!important;
+    border-radius: 99em;
+    border: none!important;
+}
+li.sosialfoot a.rss {
+    background: #ff7443;
+}
+li.sosialfoot a {
+    background: #969299;
+    clear: both;
+    transition: all 0.4s;
+    display: inline-block;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding: 0;
+    margin: 0 0 0 5px;
+    color: #fff!important;
+    border-radius: 99em;
+    border: none!important;
+}
+li.sosialfoot a i {
+    line-height: 40px;
+    font-size: 17px!important;
+}
+.sidebar {
+    float: left;
+    padding-top: 25px;
+}
+
+.blog-post {
+    margin-top: 20px;
+}
+.search-button {
+    background: #f5f5f5;
+}
+.space {
+    margin: 20px 0px 30px 0px;
+}
+.post-info {
+    color: #999;
+}
+.post-info a {
+    color: #999;
+}
+h2 {
+    margin: 0 12px 15px 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+.category {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.border {
+    border-style: outset;
+    border: 1px solid #f7f7f7;
+}
+.hline {
+    width: 100%;
+    height: 1px;
+    background: #f7f7f7;
+    margin-bottom: 10px;
+}
